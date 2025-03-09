@@ -22,7 +22,7 @@ Column specifications are sourced from the [ARTIS Database Tables](https://githu
 
 ## Generating the SAU DuckDB File
 To generate the SAU DuckDB:
-1. Download the `SAU_Duckdb_Creation_w_metadata.Rmd` script from [this issue page](https://github.com/Seafood-Globalization-Lab/artis-duckdb-metadata/issues/1).
+1. Download the `SAU_Duckdb_Creation_w_metadata.Rmd` script from [this task page](https://github.com/Seafood-Globalization-Lab/artis-duckdb-metadata/issues/1).
 2. Place all required input files in the same location.
 3. Rename the DuckDB file according to your requirements, ensuring all files, including the DuckDB file, are located in the same directory.
 4. Run the R script to generate the DuckDB in the specified path.
