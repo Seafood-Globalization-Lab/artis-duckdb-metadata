@@ -5,7 +5,7 @@ This repository contains scripts for generating DuckDB databases tailored for AR
 - **SAU_Duckdb_Creation_w_metadata.Rmd**: Generates a DuckDB database with metadata (non EML format).
 
 ## Column Descriptions and Data Types
-Column specifications are based on the [ARTIS Database Tables](https://github.com/Seafood-Globalization-Lab/artis-model/wiki/ARTIS-Database-Tables). Metadata info has been taken from here. Discrepancies between table descriptions and source files are noted.
+Column specifications are sourced from the [ARTIS Database Tables](https://github.com/Seafood-Globalization-Lab/artis-model/wiki/ARTIS-Database-Tables). Metadata is based on these specifications. Discrepancies between table descriptions and source files are noted.
 
 ## Notable Discrepancies
 - **Table: `consumption`**
@@ -19,3 +19,10 @@ Column specifications are based on the [ARTIS Database Tables](https://github.co
 
 ## Repository Structure
 - `SAU_Duckdb_Creation_w_metadata.Rmd`: Script for DuckDB generation with metadata.
+
+## Generating the SAU DuckDB File
+To generate the SAU DuckDB:
+1. Download the `SAU_Duckdb_Creation_w_metadata.Rmd` script from [this issue page](https://github.com/Seafood-Globalization-Lab/artis-duckdb-metadata/issues/1).
+2. Place all required input files in the same location.
+3. Rename the DuckDB file according to your requirements, ensuring all files, including the DuckDB file, are located in the same directory.
+4. Run the R script to generate the DuckDB in the specified path.
